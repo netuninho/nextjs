@@ -1,0 +1,17 @@
+// Só esconde os arquivos visualmente, elas ainda existem no projeto
+
+{
+  "git.enabled": true,
+  "files.exclude": {
+    "node_modules": true,
+    ".vscode": true,
+    ".gitignore": true,
+    "package.json": true,
+    "package-lock.json": true,
+    ".eslintrc*": true,
+    "tsconfig.*": true,
+    "next-env.d.ts": true,
+    "next.config.mjs": true,
+    "README.md": true
+  }
+}
