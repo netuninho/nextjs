@@ -1,7 +1,11 @@
-export default function Home() {
+import Acesso from "@/components/acesso";
+
+export default function HomePage() {
+
   return (
     <main>
       <h1>Hello World!</h1>
+      <Acesso/>
     </main>
   );
 }
